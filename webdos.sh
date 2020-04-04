@@ -45,7 +45,7 @@ progressbar()
 
 pid=$!
 
-apt-get install xterm > /dev/null
+trizen -S xterm > /dev/null
 
 for i in `seq 1 100`;
 do
@@ -72,7 +72,7 @@ progressbar()
 
 pid=$!
 
-apt-get install python3 > /dev/null
+trizen -S python3 > /dev/null
 
 for i in `seq 1 100`;
 do
